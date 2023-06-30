@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "https://to-do-list-api-dev.us-east-2.elasticbeanstalk.com/",
+      "destination": "http://to-do-list-api-dev.us-east-2.elasticbeanstalk.com/"
+    }
+  ]
+}
