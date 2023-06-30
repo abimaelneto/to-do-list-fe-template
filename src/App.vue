@@ -6,6 +6,7 @@
 import { setupPrivateApi } from "./api";
 export default {
   mounted() {
+    console.log("test");
     const token = localStorage.getItem("access_token");
     if (!token) {
       this.$router.push("/login");
